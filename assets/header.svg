@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-labelledby="title description">
+  <title id="title">YuHeng | Walker152</title>
+  <desc id="description">Classical robot navigation and embodied AI</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="52%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="50%" stop-color="#F8FAFC" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" fill="url(#background)"/>
+  <circle cx="1030" cy="42" r="170" fill="#22D3EE" opacity="0.10"/>
+  <circle cx="140" cy="208" r="210" fill="#0F172A" opacity="0.18"/>
+  <path d="M0 176 C180 132 280 224 470 180 S800 116 1200 168 V220 H0 Z" fill="url(#wave)"/>
+  <path d="M0 188 C190 148 300 232 500 190 S850 132 1200 180" fill="none" stroke="#E0F2FE" stroke-opacity="0.36" stroke-width="2"/>
+  <text x="600" y="92" text-anchor="middle" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700">YuHeng | Walker152</text>
+  <text x="600" y="133" text-anchor="middle" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="600">Classical Robot Navigation × Embodied AI</text>
+  <text x="600" y="164" text-anchor="middle" fill="#E0F2FE" font-family="Arial, Helvetica, sans-serif" font-size="16">LiDAR · Mapping · Planning · Control · Sim-to-Real</text>
+</svg>

@@ -1,10 +1,11 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1D4ED8,100:06B6D4&height=220&section=header&text=YuHeng%20%7C%20Walker152&fontSize=48&fontColor=F8FAFC&animation=fadeIn&fontAlignY=34&desc=Embodied%20Intelligence%20%C3%97%20Robot%20Navigation&descAlignY=55&descSize=19" />
+<img width="100%" src="./assets/header.svg" alt="YuHeng | Walker152 — Classical Robot Navigation × Embodied AI" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=23&duration=2800&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Making+robots+see%2C+think%2C+and+move.;Classical+Navigation+%C2%B7+SLAM+%C2%B7+Planning+%C2%B7+MPC;VLN+%C2%B7+VLA+%C2%B7+Diffusion+%C2%B7+Sim-to-Real;From+language+%26+pixels+to+real-world+robot+motion." alt="Typing SVG" />
-</a>
+<p align="center">
+  <strong>Classical Navigation · SLAM · Planning · MPC</strong><br/>
+  VLN · VLA · Diffusion · Sim-to-Real
+</p>
 
 <br/>
 
@@ -92,9 +93,7 @@ SE(2) MPC · FSM · BT         │
 
 ### 🧭 BIT RoboMaster Sentry Navigation
 
-<a href="https://github.com/Walker152/navi_minco_bit">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Walker152&repo=navi_minco_bit&theme=github_dark&hide_border=true&bg_color=00000000" />
-</a>
+<a href="https://github.com/Walker152/navi_minco_bit">Open repository →</a>
 
 A complete ROS 2 autonomous navigation stack for a RoboMaster sentry robot.
 
@@ -122,9 +121,7 @@ Dual Livox MID-360
 
 ### 🧠 NavDP × MINCO
 
-<a href="https://github.com/Walker152/NavDP-MINCO">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Walker152&repo=NavDP-MINCO&theme=github_dark&hide_border=true&bg_color=00000000" />
-</a>
+<a href="https://github.com/Walker152/NavDP-MINCO">Open repository →</a>
 
 Exploring how **learning-based navigation policies** can work together with **optimization-based trajectory generation**. This repository contains my experiments and integration work on top of NavDP, with MINCO/SFC-based trajectory post-processing and evaluation.
 
@@ -146,9 +143,7 @@ Experiments around **Isaac Sim / Isaac Lab**, mapless navigation, diffusion poli
 
 ### 🏟️ Navigation Simulation
 
-<a href="https://github.com/Walker152/nav-simulation">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Walker152&repo=nav-simulation&theme=github_dark&hide_border=true&bg_color=00000000" />
-</a>
+<a href="https://github.com/Walker152/nav-simulation">Open repository →</a>
 
 A Gazebo-based platform for testing the navigation stack before going onto the real robot, including headless checks and ground-truth validation.
 
@@ -197,15 +192,7 @@ A Gazebo-based platform for testing the navigation stack before going onto the r
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Walker152&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&rank_icon=github&include_all_commits=true" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Walker152&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&langs_count=8" />
-
-</div>
-
-<div align="center">
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Walker152&theme=github-compact&hide_border=true&area=true" />
+[Repositories](https://github.com/Walker152?tab=repositories) · [Activity](https://github.com/Walker152?tab=overview) · [Stars](https://github.com/Walker152?tab=stars)
 
 </div>
 
@@ -244,4 +231,4 @@ A Gazebo-based platform for testing the navigation stack before going onto the r
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,55:1D4ED8,100:0F172A&height=120&section=footer" />
+<img width="100%" src="./assets/footer.svg" alt="Perception → Understanding → Planning → Action" />

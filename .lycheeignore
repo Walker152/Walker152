@@ -2,9 +2,5 @@
 ^https://raw\.githubusercontent\.com/Walker152/Walker152/output/
 
 # Dynamic image services can rate-limit scheduled link checks.
-^https://capsule-render\.vercel\.app/
-^https://readme-typing-svg\.demolab\.com/
-^https://github-readme-stats\.vercel\.app/
-^https://github-readme-activity-graph\.vercel\.app/
 ^https://skillicons\.dev/
 ^https://komarev\.com/
