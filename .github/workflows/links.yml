@@ -1,0 +1,38 @@
+name: README links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - .lycheeignore
+      - .github/workflows/links.yml
+  pull_request:
+    paths:
+      - README.md
+      - .lycheeignore
+      - .github/workflows/links.yml
+  schedule:
+    - cron: "17 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: readme-links-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Check README links
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
+        with:
+          args: --verbose --no-progress ./README.md
+          fail: true
